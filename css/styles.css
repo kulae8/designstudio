@@ -1,0 +1,87 @@
+/* nunito-regular - latin */
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-v25-latin-regular.svg#Nunito') format('svg'); /* Legacy iOS */
+  }
+  /* nunito-italic - latin */
+  @font-face {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/nunito-v25-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-v25-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-v25-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-v25-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-v25-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-v25-latin-italic.svg#Nunito') format('svg'); /* Legacy iOS */
+  }
+  body {
+    font-family: 'Nunito Sans';
+  }
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .button {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  color: white;
+  cursor: pointer;
+  }
+.logo {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(227, 184, 115, 1);
+}
+.header {
+    background-color: black;
+   
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+.header-navigation-item {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin-right: 47px;
+}
+.header-navigation-item a {
+    text-decoration: none;
+    color: white;
+}
+.phone a{
+    color: rgba(227, 184, 115, 1);
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+text-decoration: underline;
+}
