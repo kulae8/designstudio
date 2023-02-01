@@ -24,9 +24,31 @@
          url('../fonts/nunito-v25-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/nunito-v25-latin-italic.svg#Nunito') format('svg'); /* Legacy iOS */
   }
+  /* yeseva-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/yeseva-one-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/yeseva-one-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yeseva-one-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yeseva-one-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yeseva-one-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yeseva-one-v20-latin-regular.svg#YesevaOne') format('svg'); /* Legacy iOS */
+}
+
   body {
     font-family: 'Nunito Sans';
   }
+
+  body * {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+
+ 
   .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -46,6 +68,12 @@
   color: white;
   cursor: pointer;
   }
+
+  .button a {
+    text-decoration: none;
+    color: white;
+  }
+  
 .logo {
   font-family: 'Nunito Sans';
   font-style: normal;
@@ -73,15 +101,218 @@
   font-size: 11px;
   margin-right: 47px;
 }
+
 .header-navigation-item a {
     text-decoration: none;
     color: white;
 }
-.phone a{
-    color: rgba(227, 184, 115, 1);
-    font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-text-decoration: underline;
+
+.nav-home {
+  color: #E3B873;
+}
+
+.phone a {
+  color: rgba(227, 184, 115, 1);
+  text-decoration: underline;
+  margin-left: 30px;
+}
+
+.hero {
+  background-image: url(/img/top-image.jpg);
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  position: relative;
+}
+
+.hero-overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.hero-container {
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 42px;
+  width: 676px;
+}
+
+.title-rostov {
+  color: rgba(227, 184, 115, 1);
+}
+
+.get-ready {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding-top: 19px;
+}
+
+.calculate {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  margin-left: 42px;
+  margin-top: 41px;
+}
+
+.submit {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, .0);
+  box-shadow: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+}
+
+.completed-projects {
+  background-color: #131313;
+  height: 1074px;   
+}
+.completed-projects_menu {
+  padding-left: 626px;
+  padding-right: 134px;
+  margin-top: -54px;
+}
+.completed-projects_menu-text {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #E3B873;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 56px;
+}
+.comleted-projects_menu_rostov {
+  display: inline;
+  border-bottom: 1px solid rgba(227, 184, 115, 1);
+  padding-bottom: 7px;
+}
+.comleted-projects_menu_sochi {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.home-top {
+  background-image: url(/img/home-top.jpg);
+  background-size: cover;
+  height: 482px;
+  margin-top: 45px;
+  position: relative;
+  }
+
+.completed-projects_text {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+  width: 253px;
+  padding-left: 134px;
+  padding-top: 176px;
+}
+.completed-projects_text-only {
+  width: 442px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+  padding-left: 134px;
+  padding-top: 34px;
+}
+
+.completed-projects_city-repair {
+  padding-left: 134px;
+  margin-left: -41px;
+  padding-top: 42px;
+}
+.completed-projects_city-apartment ul {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 403px;
+}
+
+.completed-projects_rostov-81 ul {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 271px;
+  padding-top: 29px;
+}
+
+.completed-projects_time-cost ul {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 353px;
+  margin-left: -2px;
+  padding-top: 34px;
+}
+
+.completed-projects_months-upon ul {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none; 
+  width: 308px;
+  padding-top: 9px;
 }
