@@ -118,7 +118,7 @@
 }
 
 .hero {
-  background-image: url(/img/top-image.jpg);
+  background-image: url(../img/top-image.jpg);
   background-size: cover;
   height: 707px;
   padding-top: 194px;
@@ -323,7 +323,7 @@
 }
 
 .home-top {
-  background-image: url(/img/home-top.jpg);
+  background-image: url(../img/home-top.jpg);
   background-size: cover;
   min-height: 492px;
   min-width: 600px;
@@ -357,7 +357,7 @@
 }
 
 .video {
-  background-image: url(/img/video.jpg);
+  background-image: url(../img/video.jpg);
   background-size: cover;
   min-height: 424px;
   position: relative;
@@ -496,21 +496,21 @@ justify-content: center;
 }
 
 .first_example-jpg {
-  background-image: url(/img/example1.jpg);
+  background-image: url(../img/example1.jpg);
   background-size: cover;
   width: 392px;
   height: 421px;
 }
 
 .second_example-jpg {
-  background-image: url(/img/example2.jpg);
+  background-image: url(../img/example2.jpg);
   background-size: cover;
   width: 392px;
   height: 421px;
 }
 
 .third_example-jpg {
-  background-image: url(/img/example3.jpg);
+  background-image: url(../img/example3.jpg);
   background-size: cover;
   width: 392px;
   height: 421px;
