@@ -559,3 +559,427 @@ justify-content: center;
   margin-top: -27px;
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
 }
+
+.wrapper__container {
+  padding-top: 100px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/backfourcount.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 322px;
+}
+
+.wrapper__request {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.request-block__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 703px;
+  width: 100%;
+  height: 509px;
+  padding-left: 138px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+}
+
+.circle__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #E3B873;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0px 5px 15px rgb(227 184 115 / 15%);
+  border-radius: 50%;
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.circle__text {
+  padding-left: 8px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
+}
+
+.request-block__right {
+  display: flex;
+  flex-direction: column;
+  max-width: 506px;
+  width: 100%;
+  max-height: 509px;
+  height: 100%;
+  padding: 28px 48px;
+  background-color: #131313;
+}
+
+.text_leave {
+  margin-bottom: 39px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.input__row--request {
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid grey;
+}
+
+.input__column--request {
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+.input__column--request {
+  justify-content: flex-start;
+  color: white;
+  justify-content: space-between;
+}
+.input__checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.text--request {
+  color: white;
+}
+.button--request {
+  width: 170px;
+  padding: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  border-radius: 0;
+}
+
+.checkbox_placeholder {
+  border-bottom: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+.input__text {
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.pig-baks {
+  display: flex;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.interiors {
+  height: 864px;
+  background-blend-mode: multiply;
+  background-image: url(../img/bg-2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 110px;
+}
+.wrapper-interiors {
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 764px;
+}
+
+.link__active {
+  color: #E3B873;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.link {
+  font-size: 11px;
+  line-height: 15px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link__active-design-style {
+  border-bottom: 1px solid #E3B873;
+  font-family: 'Nunito Sans';
+  font-size: 20px;
+  line-height: 22px;
+}
+
+h2 {
+  font-family: Yeseva One;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.link__design-style {
+  font-family: 'Nunito Sans';
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.link__design-style:hover {
+  border-bottom: 1px solid #E3B873;
+  color: #E3B873;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+}
+.link-list > h2 {
+  margin-top: 137px;
+  margin-bottom: 47px;
+  font-family: Yeseva One;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.interiors__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 516px;
+  justify-content: space-between;
+}
+.interior__column1 {
+  margin-left: 100px;
+  margin-right: 43px;
+}
+.int1{
+  margin-top: -41px;
+  margin-bottom: 39px;
+  background-image: url(../img/int1.jpg);
+  width: 354px;
+  height: 557px;
+}
+.int2 {
+  background-image: url(../img/int2.jpg);
+  width: 354px;
+  height: 349px;
+}
+.int3 {
+  margin-top: -112px;
+  margin-bottom: 37px;
+  background-image: url(../img/int3.jpg);
+  width: 354px;
+  height: 257px;
+}
+.int4 {
+  background-image: url(../img/int4.jpg);
+  width: 354px;
+  height: 624px;
+}
+
+.border__p--margin {
+  margin-bottom: 39px;
+  padding-top: 0px;
+}
+
+.subtitle {
+  font-family: 'Yeseva One';
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+
+.subtitle__types {
+  color: black;
+}
+.subtitle__icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 31px;
+}
+.border__p {
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+  margin-bottom: 93px;
+}
+.clients {
+  height: 1108px;
+  background: url(../img/feedback/svg/background.svg) bottom repeat-x;
+}
+.wrapper__feedback{
+  display: flex;
+  justify-content: space-between;
+}
+.feedback {
+  max-width: 376px;
+  width: 100%;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.feedback__user-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 22px;
+  background: #FFFFFF;
+  padding-top: 24px;
+}
+.feedback__username {
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+  margin-left: 25px;
+}
+.feedback__user-icon img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.feedback__text {
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+  line-height: 180%;
+  color: #959595;
+  margin-left: 25px;
+  padding-bottom: 60px;
+}
+.feedback__task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 293px;
+  width: 100%;
+  background: #E3B873;
+  box-shadow: 5px 5px 20px 
+  rgba(227, 184, 115, 0.5);
+  position: relative;
+  top: 24px;
+}
+.feedback__area {
+  display: flex;
+  max-width: 293px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'Yeseva One';
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.feedback__area:first-child {
+  max-width: 135px;
+  border-right: 1px solid #fff;
+}
+.feedback__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.questions {
+  display: flex;
+  justify-content: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.822);
+  background-image: url(../img/questions/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 953px;
+}
+.wrapper__questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subtitle--questions {
+  margin-bottom: 45px;
+}
+.questions__callback {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -222px;
+  max-width: 883px;
+  width: 100%;
+  max-height: 445px;
+  background: #181818;
+  padding: 34px 181px;
+  margin-bottom: 52px;
+}
+.input__row--questions {
+  width: 520px;
+  flex-wrap: wrap;
+  margin-bottom: 47px;
+}
+.input__column--questions:not(:last-child) {
+  width: 231px;
+  margin-bottom: 48px;
+}
+.input__column--questions:last-child {
+  width: 100%;
+}
+.button--questions {
+  padding: 20px 80px;
+  border-radius: 0;
+  font-style: normal;
+}
+.subtitle--adress {
+  font-size: 20px;
+  color: #E3B873;
+  margin-bottom: 26px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 71px;
+  width: 100%;
+  margin-bottom: 43px;
+}
+.map img {
+  width: 925px;
+  height: 465px;
+}
+.map--margin {
+  margin-bottom: 65px;
+}
