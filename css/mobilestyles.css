@@ -91,10 +91,12 @@
     height: 83px;
     align-items: center;
 }
+
 .header-navigation {
     list-style: none;
     display: flex;
 }
+
 .header-navigation-item {
   font-family: 'Nunito Sans';
   font-style: normal;
@@ -102,6 +104,8 @@
   font-size: 11px;
   margin-right: 47px;
 }
+
+
 
 .header-navigation-item a {
     text-decoration: none;
@@ -113,10 +117,18 @@
   transition: 0.2s;
 }
 
-.phone a {
-  color: rgba(227, 184, 115, 1);
+.header-navigation-item-phone {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin-right: 47px;  
   text-decoration: underline;
   margin-left: 30px;
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  color: white;
 }
 
 .hero {
