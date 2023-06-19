@@ -331,6 +331,7 @@
 .leftarrow {
   background-repeat: no-repeat;
   display: inline;
+  margin-right: 29px;
 }
 
 .leftdot {
@@ -338,9 +339,22 @@
   display: inline;
 }
 
+.centerdot {
+  background-repeat: no-repeat;
+  display: inline;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.rightdot {
+  background-repeat: no-repeat;
+  display: inline;
+}
+
 .rightarrow {
  background-repeat: no-repeat;
  display: inline;
+ margin-left: 29px
 }
 
 .home-top {
