@@ -323,20 +323,23 @@
 
 .scroll {
   margin-top: 80px;
-  margin-left: 45px;
-  background-repeat: no-repeat;
-  display: inline-block;
+  margin-left: 35px;
+  display: inline-flex;
 }
 
-.leftarrow {
+.prev {
   background-repeat: no-repeat;
   display: inline;
-  margin-right: 29px;
+  background-color: #131313;
+  padding-top: 7px;
+  border: none;
 }
 
 .leftdot {
   background-repeat: no-repeat;
   display: inline;
+  margin-left: 29px;
+  padding-top: 7px;
 }
 
 .centerdot {
@@ -344,24 +347,29 @@
   display: inline;
   margin-left: 17px;
   margin-right: 17px;
+  padding-top: 7px;
 }
 
 .rightdot {
   background-repeat: no-repeat;
   display: inline;
+  margin-right: 29px;
+  padding-top: 7px;
 }
 
-.rightarrow {
+.next {
  background-repeat: no-repeat;
  display: inline;
- margin-left: 29px
+ background-color: #131313;
+ padding-top: 7px;
+ border: none;
 }
 
-.home-top {
+.image {
   background-image: url(../img/home-top.jpg);
   background-size: cover;
-  min-height: 492px;
-  min-width: 600px;
+  height: 482px;
+  width: 679px;
   margin-top: 45px;
   position: relative;
   }
@@ -1028,3 +1036,4 @@ h2 {
 .map--margin {
   margin-bottom: 65px;
 }
+
