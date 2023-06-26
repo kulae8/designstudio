@@ -3,7 +3,7 @@ const slider = [
       sliderCity: 'Rostov-on-Don\nLCD admiral',
       sliderArea: '81 m2',
       sliderTime: '3,5 months',
-      img: './img/home-top.jpg'
+      img: './img/home-top.jpg',
     },
     {
       sliderCity: 'Sochi\nThieves',
@@ -22,6 +22,9 @@ const slider = [
   const sliderCity = document.querySelector('.sliderCity')
   const sliderArea = document.querySelector('.sliderArea')
   const sliderTime = document.querySelector('.sliderTime')
+
+
+
   const img = document.querySelector('.image')
   
   const setImage = (index) => {

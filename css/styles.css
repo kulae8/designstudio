@@ -305,8 +305,7 @@
   padding-left: 0%;
   margin-top: 102px;
 }
-.completed-projects_menu_navi:hover {
-  display: inline;
+.completed-projects_menu_navi:active {
   border-bottom: 1px solid rgba(227, 184, 115, 1);
   color: #E3B873;
   transition: 0.2s;
