@@ -312,10 +312,7 @@
   transition: 0.5s;
 }
 
-.headColor {
-  border-bottom: 1px solid rgba(227, 184, 115, 1);
-  color: #E3B873;
-}
+
 
 .completed-projects_menu_navi {
   font-family: 'Yeseva One';
@@ -349,7 +346,6 @@
   display: inline;
   margin-left: 29px;
   padding-top: 7px;
-  fill-opacity: 1;
 }
 
 .centerdot {
@@ -358,7 +354,6 @@
   margin-left: 17px;
   margin-right: 17px;
   padding-top: 7px;
-  fill-opacity: 0.3;
 }
 
 .rightdot {
@@ -366,7 +361,6 @@
   display: inline;
   margin-right: 29px;
   padding-top: 7px;
-  fill-opacity: 0.3;
 }
 
 .next {

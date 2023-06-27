@@ -7,7 +7,7 @@ const slider = [
       headColorRight: '#E3B873',
       headColorCenter: 'rgba(255, 255, 255, 0.3)',
       headColorLeft: 'rgba(255, 255, 255, 0.3)',
-      headBorderRight: '0px 1px solid rgba(227, 184, 115, 1)',
+      headBorderRight: '1px solid rgba(227, 184, 115, 1)',
       headBorderCenter: 'none',
       headBorderLeft: 'none',
       dotColorLeft: '1',
@@ -23,7 +23,7 @@ const slider = [
       headColorCenter: '#E3B873',
       headColorLeft: 'rgba(255, 255, 255, 0.3)',
       headBorderRight: 'none',
-      headBorderCenter: '0px 1px solid rgba(227, 184, 115, 1)',
+      headBorderCenter: '1px solid rgba(227, 184, 115, 1)',
       headBorderLeft: 'none',
       dotColorLeft: '0.3',
       dotColorCenter: '1',
@@ -39,7 +39,7 @@ const slider = [
       headColorLeft: '#E3B873',
       headBorderRight: 'none',
       headBorderCenter: 'none',
-      headBorderLeft: '0px 1px solid rgba(227, 184, 115, 1)',
+      headBorderLeft: '1px solid rgba(227, 184, 115, 1)',
       dotColorLeft: '0.3',
       dotColorCenter: '0.3',
       dotColorRight: '1'
@@ -65,9 +65,9 @@ const slider = [
     headColorRight.style.color = slider[index].headColorRight
     headColorCenter.style.color = slider[index].headColorCenter
     headColorLeft.style.color = slider[index].headColorLeft
-    headBorderLeft.style.border = slider[index].headBorderLeft
-    headBorderCenter.style.border = slider[index].headBorderCenter
-    headBorderRight.style.border = slider[index].headBorderRight
+    headBorderLeft.style.borderBottom = slider[index].headBorderLeft
+    headBorderCenter.style.borderBottom = slider[index].headBorderCenter
+    headBorderRight.style.borderBottom = slider[index].headBorderRight
     dotColorLeft.style.opacity = slider[index].dotColorLeft
     dotColorCenter.style.opacity = slider[index].dotColorCenter
     dotColorRight.style.opacity = slider[index].dotColorRight
@@ -77,9 +77,9 @@ const slider = [
       headColorRight.style.color = slider[index].headColorRight
       headColorCenter.style.color = slider[index].headColorCenter
       headColorLeft.style.color = slider[index].headColorLeft
-      headBorderLeft.style.border = slider[index].headBorderLeft
-      headBorderCenter.style.border = slider[index].headBorderCenter
-      headBorderRight.style.border = slider[index].headBorderRight
+      headBorderLeft.style.borderBottom = slider[index].headBorderLeft
+      headBorderCenter.style.borderBottom = slider[index].headBorderCenter
+      headBorderRight.style.borderBottom = slider[index].headBorderRight
       dotColorLeft.style.opacity = slider[index].dotColorLeft
       dotColorCenter.style.opacity = slider[index].dotColorCenter
       dotColorRight.style.opacity = slider[index].dotColorRight
@@ -89,9 +89,9 @@ const slider = [
       headColorRight.style.color = slider[index].headColorRight
       headColorCenter.style.color = slider[index].headColorCenter
       headColorLeft.style.color = slider[index].headColorLeft
-      headBorderLeft.style.border = slider[index].headBorderLeft
-      headBorderCenter.style.border = slider[index].headBorderCenter
-      headBorderRight.style.border = slider[index].headBorderRight
+      headBorderLeft.style.borderBottom = slider[index].headBorderLeft
+      headBorderCenter.style.borderBottom = slider[index].headBorderCenter
+      headBorderRight.style.borderBottom = slider[index].headBorderRight
       dotColorLeft.style.opacity = slider[index].dotColorLeft
       dotColorCenter.style.opacity = slider[index].dotColorCenter
       dotColorRight.style.opacity = slider[index].dotColorRight
